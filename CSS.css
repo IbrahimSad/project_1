@@ -1,0 +1,191 @@
+*
+{
+    padding:0px;
+    margin:0px ;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma,Arial, 'Segoe UI', Verdana, sans-serif, sans-serif;
+}
+
+.clearfix{
+    clear:both
+}
+
+/*  Stat Header  */
+.main{
+    background-color:#424040;
+    color:#FFF;
+    padding:20px;
+    margin:auto;
+    font-weight:bold;
+
+    text-align:center;
+}
+/*  End Header  */
+
+/*  Stat Navigation  */
+nav{
+   background-color: rgb(224, 224, 224);
+   padding:15px
+}
+
+nav ul{
+    text-align:center;
+
+}
+
+nav ul li:after{
+    content:" |" ;
+}
+
+nav ul li:last-child:after{
+    content: "";
+}
+
+nav ul li{
+    display: inline-block;
+}
+/*  End Navigation  */
+
+/*  Stat Main  */
+main{
+    background-color:#EEE;
+    padding:15px;
+}
+
+main p{
+    text-align: center;
+}
+
+main p span{
+   font-weight: bold;
+   color:#7d7a7a
+}
+/*  End Main  */
+
+/* Start Div Post */
+.post{
+    float:left;
+    width: 70% ;
+}
+
+
+/* End Div Post */
+/*  Stat Article  */
+.post article{
+    margin:10px;
+    border:1px solid #666
+}
+
+.post article header{
+    background:rgb(224, 224, 224);
+    padding:10px;
+}
+/*  End Article  */
+
+
+/*  Stat Section  */
+.post article section{
+    background:#f1eded ;
+    padding:10px
+}
+
+.post article section details{
+    margin:5px;
+}
+
+.post article section details ul{
+    list-style: inside ;
+}
+
+.post article section figure{
+    margin:10px 0px ;
+}
+.post article section figure p{
+    margin:10px ;
+}
+
+.post article section figure img{
+    width: 296px;
+    height: 260px;
+}
+.post article section form input{
+    display:block;
+    margin:10px 0px ;
+}
+.post article section form fieldset{
+    background-color: #dcdcdc;
+
+}
+.post article section form fieldset input{
+    margin-left: 10px;
+}
+.post article section form fieldset label{
+    margin-left: 10px;
+}
+.post article section form fieldset legend{
+    margin-bottom: 10px;
+}
+
+/*  End Section  */
+
+/* Stat Asdie */
+aside{
+    float:right ;
+    width:30%;
+    
+}
+
+.sectionfix{
+    background-color:#EEE;
+    border: 1px solid rgb(109, 107, 107) ;
+    margin:10px 10px;
+    padding:0px 10px;
+    line-height:1.5 ;
+}
+
+aside .sectionfix h3{
+    background:rgb(214 206 206);
+    margin:10px ;
+    padding:5px;
+    text-align: center;
+}
+
+aside section ul li{
+    list-style:none;
+}
+
+aside .sectionfix div time{
+    display:block;
+    margin:10px ;
+    
+}
+
+aside .sectionfix figure{
+    text-align:center;
+}
+
+aside .sectionfix figure figcaption{
+    background:#e6dddd ;
+    text-align:center;
+    font-weight: bold;
+    width:100px;
+
+    
+}
+/* End Aside */
+
+/*  Stat Footer  */
+footer{
+    background-color:#313030;
+    color:#FFF;
+    padding:10px;
+    text-align:center;
+
+}
+
+
+/*  End Footer  */
